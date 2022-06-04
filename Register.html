@@ -1,0 +1,74 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css" content="text/css">
+        <title>Register</title>
+    </head>
+    <body>
+        <header class="header">
+            <nav id="navbar" class="nav-menu">
+                <div class="logo">
+                    <h1>acle23/></h1>
+                </div>
+                <ul class="nav-list">
+                    <li>
+                        <a href="./About.html" class="nav-link" id="about">About.</a>
+                    </li>
+                    <li> 
+                        <a href="./contact.html" class="nav-link" id="contact">Contact.</a>
+                    </li>
+                    <li>
+                        <a href="./Login.html" id=button"><button>Log In</button></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2 class="title">Register</h2>
+            <form action="./thank you.html">
+                <fieldset class="information">
+                    <p>
+                        <label for="fname">First Name</label>
+                        <input id="first-name" type="text" placeholder="Enter your first name..." name="fname" required>
+                        <label for="lname" class="l-name">Last Name</label>
+                        <input id="last-name" type="text" placeholder="Enter your last name..." name="lname" required>
+                        <label for="phone" class="cell-number">Phone Number</label>
+                        <input id="phone-number" type="number" placeholder="Enter your phone number..." name="number" required>
+                        <label for="gender">Gender</label>
+                        <select id="gender" required>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                        <label for="country">Country</label>
+                        <select id="country" required>
+                            <option value="nigeria">Nigeria</option>
+                            <option value="ghana">Ghana</option>
+                            <option value="south-africa">South Africa</option>
+                            <option value="kenya">Kenya</option>
+                            <option value="usa">United States Of America</option>
+                            <option value="britain">United Kingdom</option>
+                        </select>
+                        <label for="origin">State/Province</label>
+                        <input type="text" id="origin" placeholder="Enter your state of origin..." name="state" required>
+                        <label for="email">Email</label>
+                        <input id="email-address" type="email" placeholder="Enter your email" name="email" required>
+                        <label for="password">Password</label>
+                        <input id="password" type="password" placeholder="Enter your password..." name="password" required>
+                        <label for="password-c0nfirmation" class="confirm-password">Confirm Password</label>
+                        <input id="confirm-password" type="password" placeholder="Confirm your password" name="password" required>
+                    </p> 
+                    <div>
+                        <button class="btn-2" value="register" href="#">Register</button>
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+    </body>
+
+    <footer class="footer">
+        <P>acle23/> Copyright&copy;.</P>
+        <a href="mailto:mu.obi@stu.unizik.edu.ng"><button type="button" class="btn-3">Contact Me</button></a>
+    </footer>
+</html>
